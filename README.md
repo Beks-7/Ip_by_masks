@@ -10,7 +10,7 @@ This simple Python script takes a subnet mask as input and reads a list of IP ad
     Enter the subnet mask (0-32): [your_subnet_mask]
     ```
 
-2. **Input File Path**: The script reads IP addresses from a text file. Ensure that your file has a valid list of IP addresses, each on a new line. The default file path is set to `C:\Users\77750\Desktop\ip_addresses.txt`. You can modify the `file_path` variable in the script if your file is located elsewhere.
+2. **Input File Path**: The script reads IP addresses from a text file. Ensure that your file has a valid list of IP addresses, each on a new line. The default file path is set to `C:\your\path\to\ip_addresses.txt`. You can modify the `file_path` variable in the script if your file is located elsewhere.
 
 3. **View Results**: The script will output the IP addresses grouped by their calculated network addresses. Each group corresponds to a subnet based on the provided subnet mask.
 
